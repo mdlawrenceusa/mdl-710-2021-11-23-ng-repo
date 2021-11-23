@@ -8,6 +8,7 @@ import { ArtPortfolioComponent } from './art-portfolio/art-portfolio.component';
 import { StartComponent } from './start/start.component';
 import { TopBarComponent } from './top-bar/top-bar.component';
 import { PhotoPortfolioComponent } from './photo-portfolio/photo-portfolio.component';
+import { ParallaxComponent } from './parallax/parallax.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { PhotoPortfolioComponent } from './photo-portfolio/photo-portfolio.compo
     ArtPortfolioComponent,
     StartComponent,
     TopBarComponent,
-    PhotoPortfolioComponent
+    PhotoPortfolioComponent,
+    ParallaxComponent
   ],
   imports: [
     BrowserModule,
